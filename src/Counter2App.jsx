@@ -10,7 +10,6 @@ export const Counter2App = () => {
                 <button onClick={reset} type="button" className="btn btn-primary">Reset</button>
                 <button onClick={()=>increment(2)} type="button" className="btn btn-primary">+1</button>
             </div>
-
         </>
     )
 }
